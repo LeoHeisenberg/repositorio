@@ -1,0 +1,24 @@
+programa
+{
+real v1, v2, v3, v4, media, soma
+cadeia vendedor
+	
+	funcao inicio()
+	{
+		escreva ("Digite o nome do Vendedor(a):\n")
+		leia(vendedor)
+		escreva ("Digite o valor de vendas em janeiro do(a) " + vendedor,"\n")
+		leia(v1)
+		escreva ("Digite o valor de vendas em fevereiro do(a) " + vendedor,"\n")
+		leia(v2)
+		escreva ("Digite o valor de vendas em março do(a) " + vendedor,"\n")
+		leia(v3)
+		escreva ("Digite o valor de vendas em abril do(a) " + vendedor,"\n")
+		leia(v4)
+		soma = (v1+v2+v3+v4)
+		media = (soma)/4
+		
+		escreva ("A total de vendas do(a) " + vendedor + " é: " + soma,"\n")
+		escreva ("A média de vendas do(a) " + vendedor + " é: " + media)
+	}
+}
